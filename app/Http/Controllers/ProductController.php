@@ -146,6 +146,7 @@ class ProductController extends Controller
     }
 
     // Search On Users
+    // Search On Users
     public function search(Request $request)
     {
         $query = $request->input('title');
